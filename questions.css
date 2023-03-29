@@ -1,0 +1,105 @@
+body{
+    text-align: center;
+    background-image: url("background.jpg");
+    background-size: cover;
+}
+
+h1{
+    color: white;
+    font-size: 50px;
+    text-decoration: solid;
+    font-weight: bold;
+    font-style: italic;
+}
+
+h2{
+    color: white;
+    font-size: 35px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+table, tr, td{
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+    font-size: 20px;
+    width: 40%;
+}
+
+table{
+    background-color:rgb(0, 0, 74, 0.8);
+    border-radius: 50px;
+}
+
+td.question{
+    border: solid white 3px;
+    font-size: 40px;
+    font-weight: bold;
+    padding: 4%;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+}
+
+td.a{
+    padding: 2%;
+    border-left: solid white 3px;
+    border-right: dotted white 1px;
+    border-bottom: dotted white 1px;
+    font-size: 25px;
+}
+
+td.b{
+    padding: 2%;
+    border-right: solid white 3px;
+    border-bottom: dotted white 1px;
+    font-size: 25px;
+}
+
+td.c{
+    padding: 2%;
+    border-left: solid white 3px;
+    border-right: dotted white 1px;
+    border-bottom: solid white 3px;
+    border-bottom-left-radius: 50px;
+    font-size: 25px;
+}
+
+td.d{
+    padding: 2%;
+    border-right: solid white 3px;
+    border-bottom: solid white 3px;
+    border-bottom-right-radius: 50px;
+    font-size: 25px;
+}
+
+form{
+    color: white;
+    font-size: 25px;
+    background-color:rgb(0, 0, 74, 0.8);
+    margin-left: 40%;
+    margin-right: 40%;
+    padding:1%;
+    margin-top: 3%;
+    margin-bottom: 2%;
+    border-radius: 25px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border: solid white 1px;
+}
+
+select{
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    font-size: 15px;
+}
+
+input{
+    color: white;
+    padding: 10px 20px;
+    font-size: 22px;
+    margin-top: 5px;
+    background-color: darkslateblue;
+    border: solid black;
+    border-radius: 50px;
+}
